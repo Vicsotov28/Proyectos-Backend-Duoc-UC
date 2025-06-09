@@ -1,6 +1,6 @@
 # Proyectos Backend Duoc UC
 
-Este repositorio contiene los proyectos desarrollados por **Vicente Soto** durante el curso **Desarrollo Full Stack I (011V)** en Duoc UC. Cada proyecto aplica tecnologías modernas como **Java**, **Spring Boot**, **JPA** y **MySQL**, organizados bajo arquitecturas limpias y escalables.
+Este repositorio contiene los proyectos desarrollados durante el curso **Desarrollo Full Stack I ** en Duoc UC. Cada proyecto aplica tecnologías modernas como **Java**, **Spring Boot**, **JPA** y **MySQL**, organizados bajo arquitecturas limpias y escalables.
 
 ## 📦 Contenido del repositorio
 
