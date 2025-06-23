@@ -30,4 +30,18 @@ public class UsuarioService {
     public void eliminarUsuario(Long id) {
         usuarioRepository.deleteById(id);
     }
+
+    // --- Nuevos métodos de servicio para HATEOAS ---
+
+    public List<Usuario> buscarPorNombre(String nombre) {
+        return usuarioRepository.findByNombreContainingIgnoreCase(nombre);
+    }
+
+    public List<Usuario> buscarPorCorreo(String correo) {
+        return usuarioRepository.findByCorreoContainingIgnoreCase(correo);
+    }
+
+    public List<Usuario> buscarUsuariosConPedidosPendientes() {
+        return usuarioRepository.findUsuariosConPedidosPorEstado("PENDIENTE"); // Aquí fijamos el estado a "PENDIENTE"
+    }
 }

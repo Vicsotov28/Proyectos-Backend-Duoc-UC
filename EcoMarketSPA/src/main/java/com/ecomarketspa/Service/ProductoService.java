@@ -29,4 +29,16 @@ public class ProductoService {
     public void eliminarProducto(Long id) {
         productoRepository.deleteById(id);
     }
+
+    public List<Producto> buscarPorCategoria(String categoria) {
+        return productoRepository.findByCategoria(categoria);
+    }
+
+    public List<Producto> buscarPorStockBajoUmbral(int stock) {
+        return productoRepository.findByStockLessThan(stock);
+    }
+
+    public List<Producto> buscarPorRangoDePrecio(double minPrecio, double maxPrecio) {
+        return productoRepository.findByPrecioBetween(minPrecio, maxPrecio);
+    }
 }
