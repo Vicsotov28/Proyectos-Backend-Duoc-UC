@@ -54,6 +54,11 @@ Estudiante de Ingeniería en Informática
 Duoc UC – Sede Antonio Varas  
 [LinkedIn](https://www.linkedin.com/in/vicente-alberto-soto-valladares-334819331/)
 
+**Javier Rojas**  
+Estudiante de Ingeniería en Informática  
+Duoc UC – Sede Antonio Varas  
+[LinkedIn](https://www.linkedin.com/in/javier-rojas-guerrero-48831a263/)
+
 ---
 
 ## 📝 Licencia
